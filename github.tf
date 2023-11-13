@@ -12,9 +12,9 @@ provider "github" {
   token = var.gh_token
 }
 
-resource "github_repository" "example" {
-  name        = "example"
-  description = "My awesome codebase"
+resource "github_repository" "terraform" {
+  name        = "terraform"
+  description = "Hashicorp/Terraform Udemy Course"
 
   visibility = "public"
 }
